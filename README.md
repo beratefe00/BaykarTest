@@ -19,6 +19,8 @@ Python programlama dili kullanarak test otomasyon işleminin kullanılması ama�
    framework'ü kullanılmıştır. Toplamda 3 adet test senaryosu için test scriptleri yazılmıştır. İlgili scripte [Python Automation](https://github.com/beratefe00/BaykarTest/blob/main/baykar_test_automation_final.py) ulaşabilirsiniz.<br><br>
    **Gereksinimler:**
      - **Python**
+     - **Google Chrome**
+     - **ChromeDriver**(Google Chrome versiyonu ile uyumlu)
      - **Selenium**:
         ```
         pip install selenium
@@ -34,5 +36,14 @@ Python programlama dili kullanarak test otomasyon işleminin kullanılması ama�
      - **Requests**
        ```
        pip install requests
+
+    **İlgili Notlar:**<br><br>
+       - Testi çalıştırmak için test otomasyon Python dosyasında yer alan **PATH_TO_CHROMEDRIVER** adlı değişken ChromeDriver'ın PATH'ini belirtir. ChromeDriver dosyasınız nerede yer alıyorsa **PATH_TO_CHROMEDRIVER** değişkenini kendi erişim yolunuz(path) ile değiştirmeniz gerekmektedir.<br><br>
+       - Sadece **1**.**Test senaryosunu(Ziyaretçi Baykartech sitesindeki bütün navbar elementlerine tıklayabilmeli ve sayfa sorunsuz açılmalı)** çalıştırmak için ekran konsoluna **pytest -v -m navbar baykar_test_automation_final.py** yazmanız yeterli olacaktır.<br><br>
+       - Sadece **2**.**Test senaryosunu(Ziyaretçi Baykartech sitesinde sağlanan diller arasında geçiş yapabilmeli, doğru dil gösterilmeli.)** çalıştırmak için ekran konsoluna **pytest -v -m language baykar_test_automation_final.py** yazmanız yeterli olacaktır.<br><br>
+       - Sadece **3**.**Test senaryosunu(Ziyaretçi/Kullanıcı kariyer.baykartech sitesinde açık pozisyonlarda birim filtreleme ve pozisyon arama yapabilmeli. Data-Driven kullanımına dikkat edilmelidir)** çalıştırmak için ekran konsoluna **pytest -v -m search_and_filter baykar_test_automation_final.py** yazmanız yeterli olacaktır<br><br>
+       - Tüm test senaryolarını sırasıyla çalıştırmak için **pytest -v baykar_test_automation_final.py** yazabilirsiniz.<br><br>
+       
+   
       
            
