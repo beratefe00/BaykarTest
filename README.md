@@ -16,7 +16,7 @@ Python programlama dili kullanarak test otomasyon işleminin kullanılması ama�
     şeklindeki tanımlamalar olabildiğince detaylı olarak aktarılmıştır.<br><br>
 
 2. **Test Otomasyon İşleminin Uygulanması**: Baykar Kariyer websitesi için test otomasyon işlemi Python programala diliyle yazılmıştır. Web otomasyon aracı olarak Selenium, unit test işlemleri için PyTest
-   framework'ü kullanılmıştır. Toplamda 3 adet test senaryosu için test scriptleri yazılmıştır.<br><br>
+   framework'ü kullanılmıştır. Toplamda 3 adet test senaryosu için test scriptleri yazılmıştır. İlgili scripte [Python Automation](https://github.com/beratefe00/BaykarTest/blob/main/baykar_test_automation_final.py) ulaşabilirsiniz.<br><br>
    **Gereksinimler:**
      - **Python**
      - **Selenium**:
