@@ -43,6 +43,8 @@ Python programlama dili kullanarak test otomasyon işleminin kullanılması ama�
        - Sadece **2**.**Test senaryosunu(Ziyaretçi Baykartech sitesinde sağlanan diller arasında geçiş yapabilmeli, doğru dil gösterilmeli.)** çalıştırmak için ekran konsoluna **pytest -v -m language baykar_test_automation_final.py** yazmanız yeterli olacaktır.<br><br>
        - Sadece **3**.**Test senaryosunu(Ziyaretçi/Kullanıcı kariyer.baykartech sitesinde açık pozisyonlarda birim filtreleme ve pozisyon arama yapabilmeli. Data-Driven kullanımına dikkat edilmelidir)** çalıştırmak için ekran konsoluna **pytest -v -m search_and_filter baykar_test_automation_final.py** yazmanız yeterli olacaktır<br><br>
        - Tüm test senaryolarını sırasıyla çalıştırmak için **pytest -v baykar_test_automation_final.py** yazabilirsiniz.<br><br>
+
+3. **Performans/Yük Testinin Uygulanması:**: Python Locust modülü kullanarak Baykar Kariyer web sayfasında performans/yük testleri uygulanmıştır. Performans/yük test senaryolarının az sayıda oluşturulmasının sebebi test sırasında Baykar Kariyer websitesine çok sayıda request iletildiği için erişimin engellenmesi dolayısıyla test yapılamamasıdır. İlgili engellenme durumuna ait ekran görüntüleri ve Locust test raporu [Locust Dosyaları](https://github.com/beratefe00/BaykarTest/tree/main/LocustDosyalar%C4%B1) adlı bölümde yer almaktadır.
        
    
       
